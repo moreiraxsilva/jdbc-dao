@@ -29,11 +29,16 @@ public class Program2 {
 		}
 		
 		System.out.println();
-		System.out.println("*****5. seller update*****");
+		System.out.println("*****4. department update*****");
 		department = departmentDao.findById(3);
 		department.setName("Clothes");
 		departmentDao.update(department);
 		System.out.println("Update completed!");
+		
+		System.out.println();
+		System.out.println("*****5. department delete*****");
+		departmentDao.deleteById(20);
+		System.out.println("Delete completed!");
 		
 	}
 }
