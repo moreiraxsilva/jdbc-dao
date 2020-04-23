@@ -48,7 +48,7 @@ public class Program {
 		
 		System.out.println();
 		System.out.println("*****6. seller delete*****");
-		sellerDao.deleteById(5);
+		sellerDao.deleteById(7210);
 		System.out.println("Delete completed!");
 		
 	}
