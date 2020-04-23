@@ -28,5 +28,12 @@ public class Program2 {
 			System.out.println(obj);
 		}
 		
+		System.out.println();
+		System.out.println("*****5. seller update*****");
+		department = departmentDao.findById(3);
+		department.setName("Clothes");
+		departmentDao.update(department);
+		System.out.println("Update completed!");
+		
 	}
 }
